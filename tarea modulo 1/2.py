@@ -14,8 +14,8 @@ while respuesta == "si" :
             else:
                 print(f"adivinaste, el numero es {secreto}")
                 break           
-    i +=1
-    print("te quedaste sin intentos. PERDISTE")
-respuesta = input("quiere volver a jugar? ")
+        i +=1
+        print("te quedaste sin intentos. PERDISTE")
+    respuesta = input("quiere volver a jugar? ")
     
             
