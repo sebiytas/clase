@@ -1,6 +1,6 @@
-dia = input("dime un dia ")
-mes = input("dime un mes (del 1 al 12) ")
-año = input("dime un año ")
+dia = int(input("dime un dia "))
+mes = int(input("dime un mes (del 1 al 12) "))
+año = int(input("dime un año "))
 
 
 if (año % 4 == 0 and año % 100 != 0) or (año % 400 == 0):
@@ -20,6 +20,7 @@ if (año % 4 == 0 and año % 100 != 0) or (año % 400 == 0):
             dias_max = 29
         else:
             dias_max = 28
+            
     
 else:
     print("error. datos invalidos")
