@@ -1,0 +1,10 @@
+#titulo-principal {
+    color: #0056b3;
+}
+.parrafo-destacado {
+    font-weight: bold;
+    color:#555;
+}
+p {
+    size: 18px;
+}
